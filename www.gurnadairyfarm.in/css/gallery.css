@@ -1,0 +1,212 @@
+/* CSS Document */
+
+/*portfolio*/
+.pf-img img {
+    width: 100%;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+}
+.pf-detail {
+    padding-bottom: 15px;
+    font-size: 15px;
+
+}
+.pf-detail p {
+    font-family: 'Lato',sans-serif;
+}
+.pf-list {
+    line-height: 30px;
+    font-size: 15px;
+}
+.pf-list i { color: #c7c7c7 }
+.image-caption a { padding: 10px 15px }
+.pad-ten { padding-bottom: 30px }
+.title { margin-top: 40px }
+/*Photo Gallery*/
+#gallery {
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+#gallery h2 {
+    color: #fff;
+    padding-top: 30px;
+}
+.gallery-container {
+    margin: 0 auto 40px auto;
+    position: relative;
+    width: 100%;
+}
+.col-4 .item {
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.col-4 .item img { height: 230px }
+ul#filters {
+    display: inline-block;
+    width: 100%;
+    margin: 25px 0 25px 0;
+}
+ul#filters li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+ul#filters li a {
+    background: #E2E0E1;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #7D797A;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition-duration: 500ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    -moz-transition-duration: 500ms;
+    -moz-transition-property: width, background;
+    -moz-transition-timing-function: ease;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+}
+ul#filters > li > a:hover,
+ul#filters > li > a:focus,
+ul#filters > .active > a,
+ul#filters > .active > span {
+    background: #48cfad;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition-duration: 500ms;
+    transition-property: width, background;
+    transition-timing-function: ease;
+    -moz-transition-duration: 500ms;
+    -moz-transition-property: width, background;
+    -moz-transition-timing-function: ease;
+    -webkit-transition-duration: 500ms;
+    -webkit-transition-property: width, background;
+    -webkit-transition-timing-function: ease;
+}
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+  
+}
+#filters {
+    margin: 1%;
+    padding: 0;
+    list-style: none;
+}
+#filters li { float: left }
+#filters li span {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+#filters li span.active {
+    background: #48cfad;
+    color: #fff;
+}
+#portfoliolist-three .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 32%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    display: none;
+    float: left;
+    overflow: hidden;
+}
+#portfoliolist .portfolio {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 24%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    display: none;
+    float: left;
+    overflow: hidden;
+}
+.portfolio-wrapper {
+    overflow: hidden;
+    position: relative !important;
+    background: #666;
+    cursor: pointer;
+}
+.portfolio img {
+    max-width: 100%;
+    position: relative;
+}
+span.filter {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+/* #Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .container { width: 768px }
+}
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
+@media only screen and (max-width: 767px) {
+    .container { width: 95% }
+    #portfoliolist .portfolio {
+        width: 97%;
+        margin: 2%;
+    }
+    #portfoliolist-three .portfolio {
+        width: 97%;
+        margin: 2%;
+    }
+}
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container { width: 70% }
+}
+.portfolio-hover {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-hover .icon {
+    background-color: #000;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    opacity: .7;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.image-caption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 35%;
+    display: none;
+    text-align: center;
+    color: #fff !important;
+    z-index: 2;
+}
+

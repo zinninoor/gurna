@@ -1,0 +1,22 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 14 Jul 2019 14:42:36 at http://www.gokamilk.in/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -http://www.gokamilk.in/index.html/* +*http://www.gokamilk.in/index.html*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "HTTrack Website Copier/3.0x (offline browser; web mirror utility)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.gokamilk.in/index.html -O1 "C:\My Web Sites\dairy farm new" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -http://www.gokamilk.in/index.html/* +*http://www.gokamilk.in/index.html* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/images/8.jpg (from www.gokamilk.in/index.html)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/product.html (from www.gokamilk.in/index.html)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/fonts/glyphicons-halflings-regular.eot (from www.gokamilk.in/css/bootstrap.css)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/fonts/glyphicons-halflings-regular.eot? (from www.gokamilk.in/css/bootstrap.css)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/fonts/glyphicons-halflings-regular.woff2 (from www.gokamilk.in/css/bootstrap.css)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/fonts/glyphicons-halflings-regular.woff (from www.gokamilk.in/css/bootstrap.css)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/fonts/glyphicons-halflings-regular.ttf (from www.gokamilk.in/css/bootstrap.css)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/fonts/glyphicons-halflings-regular.svg (from www.gokamilk.in/css/bootstrap.css)
+14:44:24	Error: 	"Not Found" (404) at link www.gokamilk.in/assets/bootstrap/css/bootstrap.min.css (from www.gokamilk.in/about.html)
+14:44:28	Error: 	"Not Found" (404) at link www.gokamilk.in/assets/bootstrap/js/bootstrap.min.js (from www.gokamilk.in/about.html)
+14:44:28	Error: 	"Not Found" (404) at link www.gokamilk.in/js/bootstrap.min.js (from www.gokamilk.in/products.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 56 seconds : 95 links scanned, 83 files written (3729834 bytes overall) [2888609 bytes received at 24901 bytes/sec], 1466492 bytes transferred using HTTP compression in 43 files, ratio 39%, 2.2 requests per connection
+(11 errors, 0 warnings, 0 messages)
